@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FizzBuzz</title>
+    <title>{{ page.title }}</title>
     
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   
@@ -16,15 +16,9 @@
 </ul>
     </nav>
 <div class="container">
-<h1>FizzBuzz</h1>
+<h1>{{ page.title }}</h1>
 
-  <h1>FizzBuzz</h1>
-
-<div class="post">
-  <p>For 1 to 100, print Fizz if the number is divisible by 3, Buzz if divisible by 5, FizzBuzz if divisible by both, and if not divisible by either print out the number itself.</p>
-
-</div>
-
+  {{ content }}
 
 </div>
   

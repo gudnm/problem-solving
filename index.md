@@ -1,9 +1,7 @@
 ---
-layout: post
+layout: default
 title: All the problems
 ---
-
-#Problem Solving
 
 <ul>
   {% for post in site.posts %}
