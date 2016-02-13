@@ -6,7 +6,7 @@ title: All the problems
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
