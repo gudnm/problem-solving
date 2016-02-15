@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Nth Number in Fibonacci Sequence
 ---
 
 Give nth number in fibonacci sequence. 
